@@ -739,3 +739,20 @@ main {
     font-size: var(--font-size-xl);
   }
 }
+
+/* --------------------------------------------------------------------------
+     FOCUS STATES & ACCESSIBILITY
+     -------------------------------------------------------------------------- */
+
+.booth:focus-visible,
+.add-booth:focus-visible,
+.remove-item:focus-visible,
+#clear-cart:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.remove-item:focus-visible,
+#clear-cart:focus-visible {
+  outline-color: var(--color-danger);
+}

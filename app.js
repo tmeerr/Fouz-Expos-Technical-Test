@@ -14,6 +14,19 @@
             }
         });
 
+        // Handle keyboard navigation for booths
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                if (e.target.classList.contains('booth')) {
+                    e.preventDefault();
+                    const addButton = e.target.querySelector('.add-booth');
+                    if (addButton) {
+                        addBooth(addButton);
+                    }
+                }
+            }
+        });
+
         // Handle "Clear Cart" button
         const clearButton = document.getElementById('clear-cart');
         if (clearButton) {
