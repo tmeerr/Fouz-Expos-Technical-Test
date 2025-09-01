@@ -16,7 +16,7 @@ This project creates an intuitive booth booking system where users can:
 ## 📱 Features
 
 ### Core Functionality
-- **Interactive Floor Plan**: 6x6 grid layout with labeled booths (A1-F6)
+- **Interactive Floor Plan**: Responsive grid layout with labeled booths (A1-F6)
 - **Hover Effects**: Price and "Add Booth" button appear on hover (desktop)
 - **Always Visible Info**: Touch-friendly design for tablets and mobile
 - **Shopping Cart**: Add, remove, and clear booth selections
